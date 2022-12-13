@@ -40,6 +40,9 @@ jobs:
         run: npm ci --prefer-offline
 
       - name: Truffle test
+        run: npm run migrate 
+
+      - name: Truffle test
         run: npm run test
 
       - name: Slither static analyser

@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "migrate": "truffle migrate --reset --compile-all --network development",
     "build": "react-scripts build",
     "test": "truffle test",
     "eject": "react-scripts eject"
